@@ -1,25 +1,25 @@
 {
-    "compilerOptions": {
-        "declaration": true,
-        "declarationDir": "build",
-        "module": "esnext",
-        "target": "es5",
-        "lib": [
-            "DOM",
-            "ES2020"
-        ],
-        "sourceMap": true,
-        "jsx": "react",
-        "moduleResolution": "node",
-        "allowSyntheticDefaultImports": true,
-        "esModuleInterop": true
-    },
-    "include": [
-        "src/**/*"
-    ],
-    "exclude": [
-        "node_modules",
-        "build",
-        "src/**/*.spec.tsx"
-    ]
+  "compilerOptions": {
+      "declaration": true,
+      "declarationDir": "build",
+      "module": "esnext",
+      "target": "esnext",
+      "lib": [
+          "DOM",
+          "ESNext"
+      ],
+      "sourceMap": true,
+      "jsx": "react",
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true
+  },
+  "include": [
+      "src/**/*"
+  ],
+  "exclude": [
+      "node_modules",
+      "build",
+      "src/**/*.spec.tsx"
+  ]
 }
